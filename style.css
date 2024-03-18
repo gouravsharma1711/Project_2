@@ -516,7 +516,8 @@
     display: flex;
     max-width: 1280px;
     padding: 1.2rem 2.4rem;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     
 }
 .left{
@@ -570,6 +571,8 @@
     grid-template-columns: repeat(4,1fr);
     grid-gap: 5rem;
     padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
 }
 .span_class{
     font-size: 1.05rem;
